@@ -6,106 +6,140 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B6CB05962E42F32F0057593D /* FoundationModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CB05902E42F28B0057593D /* FoundationModels.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B6CB05A02E4311F20057593D /* ChatBubble in Frameworks */ = {isa = PBXBuildFile; productRef = B6CB059F2E4311F20057593D /* ChatBubble */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B6EDDC5E2E3EB3D20031D6DB /* EchoMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BFCE6F2E401C630075EC00 /* EchoMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CB05902E42F28B0057593D /* FoundationModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoundationModels.framework; path = System/Library/Frameworks/FoundationModels.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B67D5BF52E402C5900379F46 /* Exceptions for "EchoMind" folder in "EchoMind" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B6BFCE6E2E401C630075EC00 /* EchoMind */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B6EDDC602E3EB3D20031D6DB /* EchoMind */ = {
+		B6BFCE712E401C630075EC00 /* EchoMind */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B67D5BF52E402C5900379F46 /* Exceptions for "EchoMind" folder in "EchoMind" target */,
+			);
 			path = EchoMind;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6EDDC5B2E3EB3D20031D6DB /* Frameworks */ = {
+		B6BFCE6C2E401C630075EC00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CB05A02E4311F20057593D /* ChatBubble in Frameworks */,
+				B6CB05962E42F32F0057593D /* FoundationModels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B6EDDC552E3EB3D20031D6DB = {
+		B6BFCE662E401C630075EC00 = {
 			isa = PBXGroup;
 			children = (
-				B6EDDC602E3EB3D20031D6DB /* EchoMind */,
-				B6EDDC5F2E3EB3D20031D6DB /* Products */,
+				B6BFCE712E401C630075EC00 /* EchoMind */,
+				B6CB058F2E42F28B0057593D /* Frameworks */,
+				B6BFCE702E401C630075EC00 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B6EDDC5F2E3EB3D20031D6DB /* Products */ = {
+		B6BFCE702E401C630075EC00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6EDDC5E2E3EB3D20031D6DB /* EchoMind.app */,
+				B6BFCE6F2E401C630075EC00 /* EchoMind.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CB058F2E42F28B0057593D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB05902E42F28B0057593D /* FoundationModels.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6EDDC5D2E3EB3D20031D6DB /* EchoMind */ = {
+		B6BFCE6E2E401C630075EC00 /* EchoMind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6EDDC692E3EB3D30031D6DB /* Build configuration list for PBXNativeTarget "EchoMind" */;
+			buildConfigurationList = B6BFCE7C2E401C640075EC00 /* Build configuration list for PBXNativeTarget "EchoMind" */;
 			buildPhases = (
-				B6EDDC5A2E3EB3D20031D6DB /* Sources */,
-				B6EDDC5B2E3EB3D20031D6DB /* Frameworks */,
-				B6EDDC5C2E3EB3D20031D6DB /* Resources */,
+				B6BFCE6B2E401C630075EC00 /* Sources */,
+				B6BFCE6C2E401C630075EC00 /* Frameworks */,
+				B6BFCE6D2E401C630075EC00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B6EDDC602E3EB3D20031D6DB /* EchoMind */,
+				B6BFCE712E401C630075EC00 /* EchoMind */,
 			);
 			name = EchoMind;
 			packageProductDependencies = (
+				B6CB059F2E4311F20057593D /* ChatBubble */,
 			);
 			productName = EchoMind;
-			productReference = B6EDDC5E2E3EB3D20031D6DB /* EchoMind.app */;
+			productReference = B6BFCE6F2E401C630075EC00 /* EchoMind.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B6EDDC562E3EB3D20031D6DB /* Project object */ = {
+		B6BFCE672E401C630075EC00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					B6EDDC5D2E3EB3D20031D6DB = {
+					B6BFCE6E2E401C630075EC00 = {
 						CreatedOnToolsVersion = 26.0;
 					};
 				};
 			};
-			buildConfigurationList = B6EDDC592E3EB3D20031D6DB /* Build configuration list for PBXProject "EchoMind" */;
+			buildConfigurationList = B6BFCE6A2E401C630075EC00 /* Build configuration list for PBXProject "EchoMind" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B6EDDC552E3EB3D20031D6DB;
+			mainGroup = B6BFCE662E401C630075EC00;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B6CB059E2E4311F20057593D /* XCRemoteSwiftPackageReference "ChatBubble" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B6EDDC5F2E3EB3D20031D6DB /* Products */;
+			productRefGroup = B6BFCE702E401C630075EC00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6EDDC5D2E3EB3D20031D6DB /* EchoMind */,
+				B6BFCE6E2E401C630075EC00 /* EchoMind */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B6EDDC5C2E3EB3D20031D6DB /* Resources */ = {
+		B6BFCE6D2E401C630075EC00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +149,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B6EDDC5A2E3EB3D20031D6DB /* Sources */ = {
+		B6BFCE6B2E401C630075EC00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +159,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B6EDDC672E3EB3D30031D6DB /* Debug */ = {
+		B6BFCE7A2E401C640075EC00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		B6EDDC682E3EB3D30031D6DB /* Release */ = {
+		B6BFCE7B2E401C640075EC00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +280,7 @@
 			};
 			name = Release;
 		};
-		B6EDDC6A2E3EB3D30031D6DB /* Debug */ = {
+		B6BFCE7D2E401C640075EC00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -279,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		B6EDDC6B2E3EB3D30031D6DB /* Release */ = {
+		B6BFCE7E2E401C640075EC00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,25 +349,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6EDDC592E3EB3D20031D6DB /* Build configuration list for PBXProject "EchoMind" */ = {
+		B6BFCE6A2E401C630075EC00 /* Build configuration list for PBXProject "EchoMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6EDDC672E3EB3D30031D6DB /* Debug */,
-				B6EDDC682E3EB3D30031D6DB /* Release */,
+				B6BFCE7A2E401C640075EC00 /* Debug */,
+				B6BFCE7B2E401C640075EC00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6EDDC692E3EB3D30031D6DB /* Build configuration list for PBXNativeTarget "EchoMind" */ = {
+		B6BFCE7C2E401C640075EC00 /* Build configuration list for PBXNativeTarget "EchoMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6EDDC6A2E3EB3D30031D6DB /* Debug */,
-				B6EDDC6B2E3EB3D30031D6DB /* Release */,
+				B6BFCE7D2E401C640075EC00 /* Debug */,
+				B6BFCE7E2E401C640075EC00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6CB059E2E4311F20057593D /* XCRemoteSwiftPackageReference "ChatBubble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zunda-pixel/ChatBubble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6CB059F2E4311F20057593D /* ChatBubble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6CB059E2E4311F20057593D /* XCRemoteSwiftPackageReference "ChatBubble" */;
+			productName = ChatBubble;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = B6EDDC562E3EB3D20031D6DB /* Project object */;
+	rootObject = B6BFCE672E401C630075EC00 /* Project object */;
 }

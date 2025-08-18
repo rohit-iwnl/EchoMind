@@ -1,0 +1,15 @@
+{
+  "originHash" : "6415a87c61d3b2c22bcc86b5490ccb50b49cf7ee583054f60853de386734bbb6",
+  "pins" : [
+    {
+      "identity" : "chatbubble",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zunda-pixel/ChatBubble",
+      "state" : {
+        "revision" : "c42c58ad937f74ebd12d4a487fa9701d1323e409",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
